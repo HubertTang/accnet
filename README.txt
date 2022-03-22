@@ -18,6 +18,13 @@ elements such chromosomes or plasmids, or complex set such as genomes,
 pangenomes or even enviromental proteomes.
 
 
+INSTALL DEPENDENCIES USING ANACONDA:
+conda create -n accnet
+conda activate accnet
+conda install -c bioconda perl-statistics-r
+conda install -c conda-forge r-dplyr r-tidyr r-mclust r-cluster
+
+
 INPUT DATA
 
 AccNET works with proteomes. Each proteome must be in a single file.
